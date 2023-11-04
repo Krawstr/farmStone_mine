@@ -11,4 +11,4 @@ while search == 'sim':
         gui.mouseUp()
     except:
         sleep(0.2)
-        print('cade pedra?')
+        print('where is the stone?')
