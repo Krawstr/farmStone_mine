@@ -1,9 +1,9 @@
 import pyautogui as gui
 from time import sleep
 
-procurar = 'sim'
+search = 'sim'
 sleep(3)
-while procurar == 'sim':
+while search == 'sim':
     try:
         img = gui.locateCenterOnScreen('capturar.png', confidence=0.7)
         gui.mouseDown(img.x, img.y)
