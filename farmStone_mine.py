@@ -12,7 +12,6 @@ while True:
         gui.mouseDown(img.x, img.y)
         sleep(1)
         gui.mouseUp()
-        print('destroy block')
         blocks += 1
         print(f'destroyed blocks {blocks}')
     else:
